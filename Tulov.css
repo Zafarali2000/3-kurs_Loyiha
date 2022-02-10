@@ -65,7 +65,7 @@
 
  .tulovlar{
 	width: 800px;
-	height: 620px;
+	height: 625px;
 	border: 2px solid black;
 	/* margin-left: 250px; */
 	margin: 10px 250px;
@@ -166,58 +166,68 @@ font-size: 17px;
 	text-align: center;
 }
 
-
-.quti{
-	width: 350;
-	height: auto;
+.quti1{
+	width: 100%;
+	height: 60px;
 	display: flex;
 	border: 0px solid red;
+	margin-top: 10px;
 }
-
-
-.quti1{
-	width: 202px;
-	height: 48px;
+.quti2 {
+	width: 180px;
+	height: 40px;
 	border: 0px solid black;
+	margin-top: 10px;
+	font-size: 20px;
+	border-radius: 6px;
 	margin-left: 130px;
 }
-
-.quti1 input{
-	width: 200px;
-	height: 40px;
-	border: 0px solid black;
-	border-radius: 5px;
-	font-size: 18px;
-}
-
-.quti1 input:hover{
+.quti2:hover{
 	box-shadow: 0px 0px 10px black;
 }
 
-
-
-.quti2{
-	width: 200px;
-	height: 40px;
+.quti2 a{
+	text-decoration: none;
+	color: black;
 	border: 0px solid black;
 }
+.quti2 a:hover{
+	color: blue;
+	transition: all 0.5s ease;
+}
+.quti2 a:active{
+	transition: all 0.0001s ease;
+	color: aqua;
+}
 
-.quti2 input{
-	width: 200px;
+/* class="quti3" */
+
+.quti3 {
+	width: 180px;
 	height: 40px;
 	border: 0px solid black;
-	margin-left: 120px;
-	border-radius: 5px;
-	font-size: 18px;
-	
+	margin-top: 10px;
+	font-size: 20px;
+	border-radius: 6px;
+	margin-left: 180px;
 }
-.quti2 input:hover{
+.quti3:hover{
 	box-shadow: 0px 0px 10px black;
 }
 
-
-
-
+.quti3 a{
+	text-decoration: none;
+	color: black;
+	border: 0px solid black;
+}
+.quti3 a:hover{
+	color: blue;
+	transition: all 0.5s ease;
+}
+.quti3 a:active{
+	transition: all 0.01s ease;
+	color: aqua;
+}
 
 
 
@@ -229,7 +239,8 @@ font-size: 17px;
 
 .card{
 	display: flex;
-	margin-top: 15px;
+	margin-top: 12px;
+	
 }
 .card div img{
 	width: 190px;
